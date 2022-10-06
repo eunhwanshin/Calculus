@@ -29,9 +29,8 @@ y = subs(P8, x, v);
 plot(v, double(y))
 
 hold off
-ylim([-0.5 0.5] * pi)
-grid on
-legend('f(x)', 'P_2', 'P_4', 'P_6', 'P_8')
 ylim([-6 6])
 grid on
+legend('f(x)', 'P_2', 'P_4', 'P_6', 'P_8')
+
 
